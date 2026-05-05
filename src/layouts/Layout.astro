@@ -288,13 +288,12 @@ const navLinks = [
     color: var(--fg);
     animation: blink 1.05s steps(2, end) infinite;
   }
-  .home-hero p:nth-of-type(2) {
+  /* Tagline: a paragraph whose only child is an <em> (i.e. *...* on its own line). */
+  .home-hero p:has(> em:only-child) {
     font-size: clamp(0.95rem, 1.4vw, 1.05rem);
     color: var(--fg-dim);
-    font-style: italic;
     margin: 0 0 0.5rem;
   }
-  .home-hero p:nth-of-type(2) em { color: var(--fg-dim); }
 
   @keyframes blink { 50% { opacity: 0; } }
   @media (prefers-reduced-motion: reduce) {
