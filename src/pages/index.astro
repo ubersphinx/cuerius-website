@@ -1,0 +1,13 @@
+---
+import { getEntry, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+
+const entry = await getEntry('pages', 'home');
+if (!entry) throw new Error('home content entry not found');
+const { Content } = await render(entry);
+---
+<Layout title={entry.data.title}>
+  <article class="prose home-hero">
+    <Content />
+  </article>
+</Layout>

@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Node / Astro
+node_modules/
+dist/
+.astro/
+.DS_Store
+
+# Claude Code per-user config
+.claude/
+
+# Local-only design brief
+website-brief.md
