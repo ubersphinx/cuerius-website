@@ -16,6 +16,6 @@ We respond to everything we receive. If you don't hear back within a week or so,
 **Mailing address**
 
 Cueri.us Ventures LLC
-PO Box [number — to be filled in]
-[City — to be filled in], NY [ZIP — to be filled in]
+PO Box [number]
+New York, NY [ZIP]
 United States

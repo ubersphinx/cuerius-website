@@ -34,7 +34,7 @@ Our products are not intended for users under 13 (under 16 in the European Econo
 
 ## Jurisdictions
 
-Where local law (GDPR, India's DPDP, CCPA, others) grants you additional rights, those apply alongside the rights described above.
+Where local law (GDPR, CCPA, DPDP, others) grants you additional rights, those apply alongside the rights described above.
 
 ## Changes
 
